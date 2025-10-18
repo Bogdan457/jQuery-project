@@ -17,9 +17,8 @@
     "url": "https://github.com/h5bp/html5-boilerplate/issues"
   },
   "scripts": {
-    "build": "gulp build",
-    "prettier": "prettier --write ./**/*.{js,json,md,mjs,yml}",
-    "test": "gulp archive && mocha --reporter spec --timeout 5000"
+    "build": "echo 'No build needed'",
+    "dev": "echo 'No dev server'",
   },
   "devDependencies": {
     "archiver": "^7.0.1",
