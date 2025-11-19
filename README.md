@@ -50,3 +50,10 @@ ILC-project/
 10. **Supervisor** - Company leadership
 11. **Footer** - Contacts and links
 
+## 🚀 Installation and Setup
+
+1. Clone the repository: 
+    jQuery-project
+2. Open index.html file in your browser
+
+Or use Live Server in VS Code for local development.
