@@ -1,11 +1,11 @@
 /* Вместо шрифта Gotham Pro, используеться шрифт Montserrat */
 .container {
- 	width: 1320px;
- 	height: 100%;
- 	padding: 48px 48px 0px 48px;
+  width: 1320px;
+  height: 100%;
+  padding: 48px 48px 0px 48px;
 }
 body {
-	background: #F4F7FA;
+  background: #F4F7FA;
   margin: 0;
 }
 li {
@@ -21,94 +21,96 @@ button {
 HEADER
 ========================*/
 header {
-	height: 200px;
+  height: 200px;
 }
 .logo-img {
-	width: 199px;
-	height: 63px;
-	float: left;
-	display: inline-block;
+  width: 199px;
+  height: 63px;
+  float: left;
+  display: inline-block;
 }
 .header {
-	width: 100%;
-	height: 63px;
+  width: 100%;
+  height: 63px;
 }
 .header-text {
-	height: 63px;
+  height: 63px;
 }
 .logo-text {
-	font-weight: 100;
-	font-size: 16px;
-	margin-left: -80px;
-	color: #3B1D8F;
-	display: inline-block;
+  font-weight: 100;
+  font-size: 16px;
+  margin-left: -80px;
+  color: #3B1D8F;
+  display: inline-block;
 }
 header p {
-	display: inline-block;
-	float: left;
-	margin-left: 80px;
-	width: auto;
-	height: 63px;
-	font-size: 16px;
-	color: #303030;
+  display: inline-block;
+  float: left;
+  margin-left: 80px;
+  width: auto;
+  height: 63px;
+  font-size: 16px;
+  color: #303030;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 20px;
 }
 .login button {
-	width: 105px;
-	height: 45px;
-	float: right;
-	border-radius: 15px;
-	background: #273895;
-	color: #fff;
-	border: 0px;
-	font-weight: bold;
-	padding: 0;
+  width: 105px;
+  height: 45px;
+  float: right;
+  border-radius: 15px;
+  background: #273895;
+  color: #fff;
+  border: 0px;
+  font-weight: bold;
+  padding: 0;
 }
 .login p {
-	display: inline-block;
-	width: 140px;
-	height: 16px;
-	float: right;
-	margin-right: 50px;
+  display: inline-block;
+  width: 140px;
+  height: 16px;
+  float: right;
+  margin-right: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 18px;
   color: #303030;
 }
 .nav {
-	width: 100%;
-	height: 19px;
-	float: left;
+  width: 100%;
+  height: 19px;
+  float: left;
 }
 .nav ul {
-	width: 700px;
-	height: 19px;
-	position: relative;
-	margin: 0;
-	padding: 0;
+  width: 700px;
+  height: 19px;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 .nav li {
-	float: left;
-	margin-right: 35px;
+  float: left;
+  margin-right: 35px;
 }
-.nav li p {
+.nav li a {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 15px;
   margin-left: 0;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .img-nav {
-	width: 145px;
-	height: 145px;
-	position: relative;
-	float: right;
-	margin-right: 180px;
-	z-index: 5;
+  width: 145px;
+  height: 145px;
+  position: relative;
+  float: right;
+  margin-right: 180px;
+  z-index: 5;
 }
 /*======================
 END HEADER
@@ -119,78 +121,78 @@ END HEADER
 POLICY
 ========================*/
 .policy {
-	width: 100%;
-	height: 700px;
+  width: 100%;
+  height: 700px;
 }
 .policy-content {
-	width: 733px;
+  width: 733px;
 }
 .policy-content h1 {
-	font-size: 48px;
-	position: relative;
+  font-size: 48px;
+  position: relative;
   color: #262626;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 55px;
 }
 .policy-content p {
-	font-size: 14px;
-	position: relative;
+  font-size: 14px;
+  position: relative;
   color: #262626;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 21px;
 }
 .policy-content button {
-	width: 268px;
-	height: 56px;
-	border-radius: 15px;
-	padding: 16px 32px 16px 32px;
-	background: #273895;
-	color: #fff;
-	font-weight: bold;
-	margin-top: 40px;
-	border: 0;
+  width: 268px;
+  height: 56px;
+  border-radius: 15px;
+  padding: 16px 32px 16px 32px;
+  background: #273895;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 40px;
+  border: 0;
 }
 .img-bulb {
-	display: inline-block;
-	width: 438px;
-	height: 488px;
-	position: absolute;
-	right: 170px;
-	z-index: 3;
+  display: inline-block;
+  width: 438px;
+  height: 488px;
+  position: absolute;
+  right: 170px;
+  z-index: 3;
 }
 .block-plus {
-	width: 712px;
-	height: 164px;
-	border-radius: 10px;
-	background: #fff;
-	z-index: 5;
-	position: absolute;
-	right: 100px;
+  width: 712px;
+  height: 164px;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 5;
+  position: absolute;
+  right: 100px;
 }
 .block-plus ul {
-	display: flex;
-	flex-direction: row;
-	float: left;
-	width: 653px;
-	height: 104px;
-	margin: 0;
-	padding: 30px;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 653px;
+  height: 104px;
+  margin: 0;
+  padding: 30px;
 }
 .block-plus li {list-style: none; flex-grow: 1;}
 .block-plus p {
-	font-size: 16px;
-	width: 100%;
+  font-size: 16px;
+  width: 100%;
   float: left;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
 .block-plus img {
-	width: auto;
-	height: 40px;
-	float: left;
+  width: auto;
+  height: 40px;
+  float: left;
 }
 /*======================
 END POLICY
@@ -200,19 +202,19 @@ END POLICY
 ONLINE TEAM
 ====================*/
 .online-team {
-	width: 100%;
-	height: 500px;
+  width: 100%;
+  height: 500px;
 }
 .online-team .left-content {
-	margin-left: 191px;
-	width: 438px;
-	height: 268px;
-	float: left;
+  margin-left: 191px;
+  width: 438px;
+  height: 268px;
+  float: left;
   margin-top: 70px;
 }
 .online-team .left-content .logo-img {
-	width: 187px;
-	height: 59px;
+  width: 187px;
+  height: 59px;
 }
 .online-team .left-content-title {
   font-family: 'Montserrat', sans-serif;
@@ -228,8 +230,8 @@ ONLINE TEAM
 }
 .online-team .left-content-title, .left-content-text {
   float: left;
-	margin: 20px 0 0 0;
-	padding: 0;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
 .online-team .right-content {
   display: grid;
@@ -354,33 +356,33 @@ END ONLINE TEAM
 SUPPORT
 ============*/
 .support {
-	width: 100%;
-	height: 500px;
+  width: 100%;
+  height: 500px;
 }
 .support .support-title {
-	text-align: center;
-	font-size: 16px;
+  text-align: center;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 24px;
 }
 .support-content {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	width: 1089px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1089px;
 }
 .support .content {
-	width: 314px;
-	height: 314px;
-	border-radius: 10px;
-	margin: 10px;
-	background: #fff;
-	float: left;
+  width: 314px;
+  height: 314px;
+  border-radius: 10px;
+  margin: 10px;
+  background: #fff;
+  float: left;
   padding: 30px;
 }
 .support .content h1 {
-	font-size: 16px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   line-height: 24px;
